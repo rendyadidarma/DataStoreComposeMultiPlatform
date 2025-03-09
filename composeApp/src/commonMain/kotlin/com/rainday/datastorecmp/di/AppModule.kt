@@ -4,6 +4,6 @@ import com.rainday.datastorecmp.AppViewModel
 import org.koin.compose.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
-val appModule = module {
+val viewModelModule = module {
     viewModel { AppViewModel(get()) }
 }
